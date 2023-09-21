@@ -157,6 +157,8 @@ spec:
         value: $(params.git-url)
       - name: revision
         value: $(params.revision)
+      - name: subdirectory
+        value: cool-app-source-dir
       runAfter:
       - init
       taskRef:
